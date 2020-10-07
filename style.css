@@ -742,7 +742,7 @@ svg circle:nth-child(2)
 	font-size: 18px;
 }
 
-@media screen and (max-width: 960px)
+@media (max-width: 991px)
 {
 	.container5{
 		display: block;
