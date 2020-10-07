@@ -20,7 +20,9 @@ body
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.pet p
+{
+font-size : 14px;}
 
 .banner
 {
