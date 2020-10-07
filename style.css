@@ -948,6 +948,187 @@ svg circle:nth-child(2)
         justify-content: space-between;
         
     }
+	
+		
+	header
+	{
+		padding: 20px 50px;
+	}
+	
+	.menu
+	{
+		position: fixed;
+        top: 75px;
+		left: -100%;
+		display: block;
+		padding: 100px 50px;
+		text-align: center;
+		width: 100%;
+		height: 100vh;
+		background: white;
+		transition: 0.5s;
+		z-index = "999";
+		border-top: 1px solid black;
+	}
+	
+	.menu.active
+	{
+		left: 0;
+	}
+	
+	header ul li a
+	{
+		color: #111;
+		font-size:30px;
+		margin: 10px;
+	}
+	
+	.toggle
+	{
+		width: 40px;
+		height: 40px;
+		background: url(menu.png) ;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 30px;
+		cursor: pointer;
+	}
+	
+	.toggle.active
+	{
+		background: url(close.png) ;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 30px;
+		cursor: pointer;
+	}
+	
+	.section
+	{
+		padding: 100px 50px;
+	}
+	
+	.banner
+	{
+		padding: 150px 50px 100px;
+	}
+	
+	.banner h2
+	{
+		font-size: 2em;
+	}
+	
+	.banner h3
+	{
+		font-size: 1.5em;
+	}
+	
+	.about .content .contentBx p
+	{
+		
+		left: 20px;
+	}
+	
+	.btnGit
+	{
+		margin-top: 10px;
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+	
+	.btnHost
+	{
+		margin-top: 10px;
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+	
+	.content
+	{
+		flex-direction: column;
+	}
+	
+	.w50
+	{
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	
+	.container .card .content1 h3,
+    .container .card .content1 p
+{
+	opacity: 1;
+}
+
+.container .card .content1 h2
+{
+	opacity: 1;
+	transform: translateY(-70px);
+}
+
+.container .card span
+{
+	opacity: 1;
+}
+
+.card2 .percent2 .number h2
+{
+	color: white;
+	font-size: 48px;
+}
+
+.card2 .percent2 .number h2 span
+{
+	color: white;
+}
+	
+.card2 .text
+{
+	color: white;
+}	
+
+.card3 .percent2 .number h2
+{
+	color: white;
+	font-size: 48px;
+}
+
+.card3 .percent2 .number h2 span
+{
+	color: white;
+}
+	
+.card3 .text
+{
+	color: white;
+}	
+
+.card4 .percent2 .number h2
+{
+	color: white;
+	font-size: 48px;
+}
+
+.card4 .percent2 .number h2 span
+{
+	color: white;
+}
+	
+.card4 .text
+{
+	color: white;
+}	
+
+.content3 p
+{
+	font-size: 1em;
+}
+
+.container6
+{
+    width: 300px;
+    align-items: left;
+}
     
 
 }
