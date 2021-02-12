@@ -20,9 +20,7 @@ body
     font-family: 'Montserrat', sans-serif;
 }
 
-.pet p
-{
-font-size : 14px;}
+
 
 .banner
 {
@@ -498,7 +496,7 @@ svg circle:nth-child(2)
 	width: 900px;
 	display: flex;
 	justify-content: space-between;
-	min-width: 50%:
+	
 }
 
 .container5 .card2
@@ -526,7 +524,7 @@ svg circle:nth-child(2)
 
 .container5 .card2:before
 {
-	content = "";
+	
 	position: absolute;
 	top: 0;
 	left: -50%;
@@ -645,7 +643,7 @@ svg circle:nth-child(2)
 
 .container5 .card3:before
 {
-	content = "";
+	content : "";
 	position: absolute;
 	top: 0;
 	left: -50%;
@@ -680,7 +678,7 @@ svg circle:nth-child(2)
 
 .card4:nth-child(2) svg circle:nth-child(2)
 {
-	stroke-dashoffset: calc(440 - (440 * 65)/100);
+	stroke-dashoffset: calc(440 - (440 * 85)/100);
 	stroke: #00a1ff;
 }
 
@@ -716,7 +714,7 @@ svg circle:nth-child(2)
 
 .container5 .card4:before
 {
-	content = "";
+	content : "";
 	position: absolute;
 	top: 0;
 	left: -50%;
@@ -756,11 +754,6 @@ svg circle:nth-child(2)
 		justify-content: center;
 	}
 	
-	/*.about .w50
-	{
-		display: none;
-	}*/
-	
 	header
 	{
 		padding: 20px 50px;
@@ -778,7 +771,6 @@ svg circle:nth-child(2)
 		height: 100vh;
 		background: white;
 		transition: 0.5s;
-		z-index = "999";
 		border-top: 1px solid black;
 	}
 	
@@ -944,14 +936,12 @@ svg circle:nth-child(2)
 
 @media screen and (max-width: 768)
 {
-	.container5{
-		display: inline-block;
+    .container5{
+		display: block;
 		align-items: center;
-        justify-content: space-between;
-        
-    }
+		justify-content: center;
+	}
 	
-		
 	header
 	{
 		padding: 20px 50px;
@@ -969,7 +959,6 @@ svg circle:nth-child(2)
 		height: 100vh;
 		background: white;
 		transition: 0.5s;
-		z-index = "999";
 		border-top: 1px solid black;
 	}
 	
@@ -1290,4 +1279,7 @@ svg circle:nth-child(2)
       padding: 8px 22px;
   }
   
-
+.pet p
+{
+    font-size:14px;
+}
